@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>This is todo app</h1>
+    <div>
+        <p>In this todo app you can add and list tasks.</p>
+    </div>
+    <div>
+        <a href="{% url 'tasks_list' %}">List my tasks</a>
+        <a href="{% url 'add_task' %}">Add task</a>
+    </div>
+</body>
+</html>
